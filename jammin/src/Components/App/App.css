@@ -18,7 +18,7 @@ h1 {
 }
 
 h1 .highlight {
-  color: #6c41ec;
+  color: #c300ff;
 }
 
 h2 {
@@ -29,7 +29,7 @@ h2 {
 .App {
   height: 100%;
   padding: 0 17% 10% 17%;
-  background-image: url('./background_photo_desktop.jpg');
+  background-image: url('./efe-kurnaz-RnCPiXixooY-unsplash.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
