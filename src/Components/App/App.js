@@ -52,6 +52,7 @@ class App extends React.Component {
         playlistTracks: []
       })
     })
+    alert('Playlist saved to your Spotify account!')
   }
 
   search(term) {
