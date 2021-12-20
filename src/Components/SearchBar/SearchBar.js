@@ -22,7 +22,7 @@ export class SearchBar extends React.Component {
     }
 
     handleKeyPress = (event) => {
-        if(event.key === 'Enter'){
+        if(event.charCode === 13){
           this.search();
         }
     }
