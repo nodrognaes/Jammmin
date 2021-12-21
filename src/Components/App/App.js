@@ -53,7 +53,7 @@ class App extends React.Component {
     if (this.state.playlistName !== 'Enter playlist name...'){
       Spotify.savePlaylist(this.state.playlistName, trackURIs).then(() => {
         this.setState({
-          playlistName: 'Enter playlist name here',
+          playlistName: 'Enter playlist name...',
           playlistTracks: []
         })
       })
