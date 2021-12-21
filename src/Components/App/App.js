@@ -52,7 +52,7 @@ class App extends React.Component {
         playlistTracks: []
       })
     })
-    alert('Playlist saved to your Spotify account!')
+    alert('Playlist has been saved to your Spotify account!')
   }
 
   search(term) {
@@ -75,6 +75,7 @@ class App extends React.Component {
               onRemove={this.removeTrack} 
               onNameChange={this.updatePlaylistName} 
               onSave={this.savePlaylist} />
+            <a href="https://open.spotify.com/" target="_blank"><button className="open">OPEN SPOTIFY</button></a>
           </div>
         </div>
       </div>

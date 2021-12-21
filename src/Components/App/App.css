@@ -44,6 +44,32 @@ h2 {
   width: 100%;
 }
 
+.open {
+  cursor: pointer;
+  width: 7.2rem;
+  padding: .77rem 0;
+  border-radius: 54px;
+  border-width: 0px;
+  text-align: center;
+  color: white;
+  background-color: mediumseagreen;
+  font-size: .83rem;
+  transition: background-color .25s;
+  font-weight: 500;
+  position: fixed;
+  bottom: 8px;
+  right: 10px;
+}
+
+.open:hover {
+  background-color: rgb(57, 160, 103);
+}
+
+.open a {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width: 1020px) {
   .App-playlist {
     align-items: center;
