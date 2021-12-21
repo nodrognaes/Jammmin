@@ -12,16 +12,11 @@ export class PlayList extends React.Component {
         this.props.onNameChange(e.target.value);
     }
 
-    resetPlaylistName() {
-        this.setState({ playlistName: ''})
-    };
-
     render() {
         return (
             <div className="Playlist">
                 <input placeholder={this.props.playlistName}
-                    onChange={this.handleNameChange} 
-                    onSave={this.resetPlaylistName}/>
+                    onChange={this.handleNameChange} />
                 <TrackList tracks={this.props.playlistTracks}
                     onRemove={this.props.onRemove}
                     isRemoval={true} />
