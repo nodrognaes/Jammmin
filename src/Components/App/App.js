@@ -57,7 +57,7 @@ class App extends React.Component {
           playlistTracks: []
         })
       })
-      alert('Playlist has been saved to your Spotify account!')
+      alert(`Playlist "${this.state.playlistName}" has been saved to your Spotify account!`)
       document.getElementById('plName').value = '';
     } else {
       alert('Please name your playlist!')
